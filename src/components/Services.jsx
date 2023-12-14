@@ -3,19 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "./services.css"
-import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Collapse from 'react-bootstrap/Collapse';
 
 
 function Services() {
 
-    const [open, setOpen] = useState(false);
-
     return (
         <>
             <h2 className='m-5'>Our Services</h2>
-
 
             <Container>
                 <Row>
@@ -80,25 +74,7 @@ function Services() {
                     </Col>
                 </Row>
             </Container>
-
-
-
-            {/* <div className="card">
-                <div className="card-content">
-                    <h2 className="card-title">Alignment</h2>
-                    <p className="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, culpa.
-                    </p>
-                    <a href="#" className="button">
-                        Learn More
-                    </a>
-                </div>
-            </div> */}
-
-
-
-
-
+            
         </>
     )
 }
